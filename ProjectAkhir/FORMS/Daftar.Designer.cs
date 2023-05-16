@@ -279,7 +279,7 @@ namespace ProjectAkhir.FORMS
             this.gunaCheckBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(86)))), ((int)(((byte)(124)))), ((int)(((byte)(205)))));
             this.gunaCheckBox1.Location = new System.Drawing.Point(264, 452);
             this.gunaCheckBox1.Name = "gunaCheckBox1";
-            this.gunaCheckBox1.Size = new System.Drawing.Size(130, 20);
+            this.gunaCheckBox1.Size = new System.Drawing.Size(135, 20);
             this.gunaCheckBox1.TabIndex = 26;
             this.gunaCheckBox1.Text = "Saya setuju dengan";
             // 
@@ -305,6 +305,7 @@ namespace ProjectAkhir.FORMS
             this.label5.Size = new System.Drawing.Size(99, 14);
             this.label5.TabIndex = 28;
             this.label5.Text = "Kebijakan Privasi";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // Daftar
             // 

@@ -32,5 +32,13 @@ namespace ProjectAkhir.FORMS
                 MessageBox.Show("Konfirmasi Password Tidak sesuai");
             }
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.ShowDialog();
+            this.Close();
+        }
     }
 }
